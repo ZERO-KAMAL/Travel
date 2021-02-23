@@ -1,0 +1,331 @@
+body{
+    color: #777777;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    margin-bottom: 0.5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    color: inherit;
+}
+
+#banner{
+    background: linear-gradient(rgba(4,9,30,0.4),rgba(4,9,30,0.4)) ,url(/img/hero-bg.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+.top{
+    font-size: 13px !important;
+}
+.top ul li{
+  display: inline;
+  color: #fff;
+  padding: 10px;
+}
+.top ul li a{
+  color: #fff !important;
+  text-transform: uppercase;
+}
+
+.banner-left a{
+    position: relative;
+    display: inline-block;
+    padding: 10px 30px;
+    color: #2196f3;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.2s;
+}
+.banner-left a:hover{
+    color: #255784;
+    background: #2196f3;
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+    transition-delay: 0.2s;
+}
+.banner-left a span{
+    position: absolute;
+    display: block;
+}
+.banner-left a span:nth-child(1){
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg,transparent,#2196f3);
+}
+.banner-left a:hover span:nth-child(1){
+    left: 100%;
+    transition: 1s;
+    transition-delay: 0.5%;
+}
+.banner-left a span:nth-child(3){
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg,transparent,#2196f3);
+}
+.banner-left a:hover span:nth-child(3){
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.5%;
+}
+.banner-left a span:nth-child(2){
+    right: 0;
+    top: -100%;
+    width:  2px;
+    height: 100%;
+    background: linear-gradient(180deg,transparent,#2196f3);
+}
+.banner-left a:hover span:nth-child(2){
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25%;
+}
+.banner-left a span:nth-child(4){
+    left: 0;
+    bottom: -100%;
+    width:  2px;
+    height: 100%;
+    background: linear-gradient(360deg,transparent,#2196f3);
+}
+.banner-left a:hover span:nth-child(4){
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.75%;
+}
+.primary-btn{
+    background-color:#031321;
+    
+}
+.banner-left h6 {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 2px;}
+.banner-left h1 {
+        margin: 20px 0;
+        font-size: 60px;
+        text-transform: uppercase;
+    }
+.banner-left p {
+        margin: 20px 0px;
+    }
+.tab-content{
+    background: #fff;
+    padding: 25px;
+}
+.booking ul li{
+    padding: 0;
+} 
+.title{
+    font-weight: bold;
+    color: black;
+}
+.destination-box{
+    position: relative;
+    height: 240px;
+    
+}
+
+.destination-box img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.desc{
+    position: absolute;
+    top: 66px;
+    left: 28%;
+    color: #fff;
+    z-index: 999;
+ 
+
+   
+}
+.desc a{
+  visibility: hidden;
+ }
+ .opt{
+     background: rgba(0,0,0,0.6); 
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     display: none;
+    
+ }
+ .destination-box:hover .opt {
+     display: block;
+    
+ }
+ .destination-box:hover .desc a {
+     visibility: visible;
+    
+ }
+ .bg-light{
+    background: rgba(255, 255, 255, 0.15)  !important;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 10px;
+    transition: 0.9s;
+}
+
+ .fixed{
+     position: fixed;
+     top: -8px;
+     left: 0%;
+     width: 100%;
+     background: rgba(34,34, 35, 0.9) !important;
+     z-index: 999;
+ }
+
+ #price{
+     background: url(https://softronixsolution.com/sajan/travel/img/price-bg.png);
+     background-size: cover;
+ }
+.single-price ul li a{
+       text-decoration: none;
+}
+.single-price ul li {
+      padding-bottom: 10px;
+}
+.single-price  {
+     margin-top: 85px;
+}
+.single-price h4 {
+       text-align: center;
+       border-bottom: 1px solid #f8b600;
+       padding-bottom: 20px;
+     font-style: bold;
+}
+.price-btn{
+    background: #f9f9ff;
+    border: 1px solid #eee;
+    color: #222;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 5px 20px;
+}
+.price-btn:hover{
+   border-color: #f8b600;
+   background: #f8b600;
+   color:#fff;
+}
+.destinations-p{
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+.text-dark{
+   font-weight: 600;
+   color:black;
+}
+
+#help{
+    padding: 70px 0px;
+}
+.help-box{
+   
+    height: 155px;
+    overflow: hidden;
+}
+.help-box img{
+    height: 100%;
+    transition: 0.9s;
+
+}
+.help-box:hover img{
+    transform: scale(1.08) rotate(-3deg);
+}
+#testimonial{
+    background: #f9f9ff;
+    padding: 70px 0px;
+}
+.footer-area {
+    background-color: #04091e;
+}
+
+.footer-area h6 {
+    color: white;
+}
+
+.footer-area p {
+    color: #777777;
+}
+
+.footer-nav-bar ul li a {
+    color: #777777;
+}
+
+.instafeed li img {
+    padding: 10px 2px;
+}
+
+.footer-bottom {
+    border-top: solid 1px #777777;
+    /*padding-bottom: 50px;*/
+
+}
+
+.footer-bottom-content p {
+    color: #777777;
+}
+
+.footer-social {
+    text-align: right;
+}
+
+.footer-social a {
+    color: white;
+    padding-left: 30px;
+}
+.packages-request-btn {
+    background: black;
+    line-height: 42px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none;
+    color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    position: relative;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    position: relative;
+}
+.packages-request-btn:hover{
+	background-color: #f8b600;
+	color: white;
+}
+.cheap-packages{
+	padding-bottom: 15px;
+	border-bottom: 1px solid #f8b600;
+}
+.packages-request {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.packages-request-right img {
+    width: 100%;
+    height: 100%;
+}
+    
